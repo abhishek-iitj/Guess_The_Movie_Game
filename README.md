@@ -1,6 +1,6 @@
-#Guess_The_Movie_Name
+# Guess_The_Movie_Name
 
-###About_The_Game
+### About_The_Game
 
 A game where the player gets to guess the movie name given the number of letters in it (pretty much like hangman but with movies)!
 
