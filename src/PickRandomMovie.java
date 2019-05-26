@@ -9,7 +9,6 @@ public class PickRandomMovie {
     private String fileName;
 
     public PickRandomMovie(String fileName){
-        System.out.println("filename is" + fileName);
         this.fileName = fileName;
     }
 
@@ -19,7 +18,6 @@ public class PickRandomMovie {
             String s;
             while((s=abc.readLine())!=null) {
                 movies.add(s);
-                System.out.println(s);
             }
             abc.close();
         } catch(IOException ex){
@@ -33,7 +31,6 @@ public class PickRandomMovie {
             this.readMovieNamesFromFile();
             Random rand = new Random();
             int randomIndex = rand.nextInt((movies.size() - 0) + 1) + 0;
-            System.out.println("random index" + randomIndex);
             randomMovie = movies.get(randomIndex);
         } catch (IOException e) {
             e.printStackTrace();

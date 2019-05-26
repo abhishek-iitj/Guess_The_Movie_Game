@@ -8,7 +8,6 @@ public class GuessTheMovieGame {
         PickRandomMovie pickRandomMovie;
         pickRandomMovie = new PickRandomMovie(fileName);
         movieName = pickRandomMovie.pickRandomMovie();
-        System.out.println("picked movie" + movieName);
         pointsLost = 0;
         guessed = "";
         for (Integer i=0; i<movieName.length(); i++){
@@ -19,7 +18,6 @@ public class GuessTheMovieGame {
                 guessed += ' ';
             }
         }
-        System.out.println(guessed.length());
     }
     public void play(){
         while(pointsLost<10 && !guessed.equals(movieName)){
