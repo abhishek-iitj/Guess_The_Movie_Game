@@ -12,6 +12,4 @@ If a letter is indeed in the title the computer will reveal its correct position
 
 If you lose 10 points, game over!
 
-#### Demo
-
-![Alt Text](https://media.giphy.com/media/dXKmmksKkEzN5Z9DUV/giphy.gif)
+[Demo Video](https://www.youtube.com/watch?v=56OT8T0PG_E)
