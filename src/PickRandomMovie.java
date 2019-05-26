@@ -28,16 +28,17 @@ public class PickRandomMovie {
     }
 
     public String pickRandomMovie(){
+        String randomMovie="";
         try {
             this.readMovieNamesFromFile();
             Random rand = new Random();
             int randomIndex = rand.nextInt((movies.size() - 0) + 1) + 0;
             System.out.println("random index" + randomIndex);
-            String randomMovie = movies.get(randomIndex);
-            System.out.println(randomMovie);
-            return randomMovie;
+            randomMovie = movies.get(randomIndex);
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            return randomMovie;
         }
     }
 }
