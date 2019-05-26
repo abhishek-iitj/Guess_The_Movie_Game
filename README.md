@@ -11,3 +11,5 @@ Your goal is to try to figure out the movie by guessing one letter at a time.
 If a letter is indeed in the title the computer will reveal its correct position in the word, if not, you lose a point. 
 
 If you lose 10 points, game over!
+
+![Alt Text](https://github.com/{abhishek-iitj}/{Guess_The_Movie_Game}/demo.gif)
