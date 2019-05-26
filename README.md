@@ -12,4 +12,4 @@ If a letter is indeed in the title the computer will reveal its correct position
 
 If you lose 10 points, game over!
 
-![Alt Text](https://github.com/{abhishek-iitj}/{Guess_The_Movie_Game}/demo.gif)
+![Alt Text](https://media.giphy.com/media/dXKmmksKkEzN5Z9DUV/giphy.gif)
