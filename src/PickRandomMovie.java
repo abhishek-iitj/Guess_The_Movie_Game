@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class PickRandomMovie {
     private ArrayList<String> movies = new ArrayList<String>();
@@ -23,5 +24,12 @@ public class PickRandomMovie {
         } catch(IOException ex){
             System.out.println(ex.toString());
         }
+    }
+
+    public String pickRandomMovie(){
+        Random rand = new Random();
+        int randomIndex = rand.nextInt((movies.size() - 0) + 1) + 0;
+        String randomMovie = movies.get(randomIndex);
+        return randomMovie;
     }
 }
