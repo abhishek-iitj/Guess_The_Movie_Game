@@ -1,3 +1,5 @@
+package GuessTheMovieGame;
+
 import java.util.Scanner;
 
 public class GuessTheMovieGame {
