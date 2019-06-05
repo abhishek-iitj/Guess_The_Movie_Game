@@ -7,7 +7,6 @@
     <artifactId>GuessTheMovieGame</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
-
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -15,10 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.junit</groupId>
-            <artifactId>junit-bom</artifactId>
-            <version>5.3.0</version>
-            <type>pom</type>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.0.0-M5</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -27,7 +25,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.1</version>
                 <executions>
                     <execution>
